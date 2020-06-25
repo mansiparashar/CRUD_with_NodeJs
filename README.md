@@ -58,5 +58,10 @@ to deploy the app locally.
 On your web browser go to <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a><br>
 
 This is how it should look like
-![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/images/p1.png)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p1.JPG)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p2.JPG)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p3.JPG)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p4.JPG)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p5.JPG)
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p6.JPG)
 
