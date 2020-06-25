@@ -8,7 +8,7 @@ mongoose        = require("mongoose"),
 app             = express();
 
 // APP CONFIG
-mongoose.connect("mongodb://localhost/restful_blog_app"); //connecting mongo -> THE NAME OF WHAT WE WILL LOOK FOR IN MONGO
+mongoose.connect("mongodb+srv://mansiparashar:mansi1@cluster0-wbxs4.mongodb.net/crud?retryWrites=true&w=majority",{ useNewUrlParser: true,useUnifiedTopology: true}); //connecting mongo -> THE NAME OF WHAT WE WILL LOOK FOR IN MONGO
 mongoose.set('useFindAndModify', false);
 app.set("view engine", "ejs"); //connecting ejs
 app.use(express.static("public")); //using express
