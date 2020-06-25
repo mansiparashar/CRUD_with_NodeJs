@@ -121,8 +121,8 @@ app.delete("/blogs/:id", function(req, res){
    //redirect somewhere
 });
 
-
-app.listen(3000,function()
+var port = process.env.PORT || 8080;
+app.listen(port,function()
 {
   console.log("App is running");
 });
