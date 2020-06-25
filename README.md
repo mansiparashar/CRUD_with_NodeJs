@@ -63,5 +63,5 @@ This is how it should look like
 ![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p3.JPG)
 ![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p4.JPG)
 ![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p5.JPG)
-![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/blob/master/images/p6.JPG)
+
 
