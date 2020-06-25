@@ -1,0 +1,33 @@
+<%- include("./partials/header") %>
+<h1>INDEX PAGE</h1>
+<div class="ui main text container">
+    <div class="ui huge header">Catalogue</div>
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+            <% blogs.forEach(function(blog){ %>
+                <div class="item">
+                    <div class="image">       
+                        <img src="<%= blog.image %>">
+                    </div>
+                    <div class="content">
+                        <a class="header" href="/blogs/<%=blog._id%>"><%=blog.title %></a>
+                        <div class="meta">
+                           Price : Rs <span><%= blog.price %></span>
+                        </div>
+
+                        <div class="extra">
+                            <a class="ui floated basic blue button" href="/blogs/<%=blog._id%>">
+                                Update
+                                <i class="right chevron icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</div>
+
+
+
+<%- include("./partials/footer") %>
