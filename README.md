@@ -34,12 +34,21 @@ or
 ```
 $ git clone https://github.com/mansiparashar/CRUD_with_NodeJs.git
 ```
+Open the command window and start the MongoDB server
+```
+$ mongod
+```
+Open another terminal
+```
+$ mongo
+```
+
 Then, navigate to the project folder and execute the command
 ```
 $ node app.js
 ```
 
-##### Package-Json
+##### Package.json
 
 Requirements can be installed using the command (from the command-line)
 ```
