@@ -55,5 +55,8 @@ $ npm install body-parser express method-override mongoose ejs --save
 
 to deploy the app locally. 
 
-On your web browser go to <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>
+On your web browser go to <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a><br>
+
+This is how it should look like
+![Home](https://github.com/mansiparashar/CRUD_with_NodeJs/images/p1.png)
 
